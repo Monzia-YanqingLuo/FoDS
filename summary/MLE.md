@@ -1,0 +1,12 @@
+#machine_learning 
+
+| D          | D                                                                                                                                                                                                                                             |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| What       | Maximum Likelihood Estimation is a method used to estimate the parameters of a statistical model by finding the values of the parameters that maximize the likelihood function, which measures how well the model explains the observed data. |
+| How        | $L(\theta)=\mathrm{P}\left(x_1, \ldots, x_m ; \theta\right)$<br>$L(\theta)=\prod_{i=1}^m \mathrm{P}\left(x_i ; \theta\right)$<br>$\hat{\theta}=\underset{\theta \in \Theta}{\operatorname{argmax}} L(\theta)$<br>**Log-Likelihood**: $l(\theta)=\ln (L(\theta))=\sum_{i=1}^m \ln \left(p\left(x_i ; \theta\right)\right)$<br>--> easier to calculate                                                                                                                                                                                                                                              |
+| When       | MLE is commonly applied to estimate parameters in probability distributions, linear regression models                                                                                                                                         |
+| Why        | **Optimal Estimates**<br>**Maximum Likelihood Principle**<br>**Generalized Method**                                                                                                                                                                                     |
+| Connection | [[Bayes Decision Theory]]                                                                                                                                                                                                                     |
+
+==为什么我们要最大化$p\left(x_i ; \theta\right)$==
+似然：似然函数的主要目标是模拟观测数据并评估观测数据在给定参数条件下的概率，以找到最有可能产生观测数据的参数值。
